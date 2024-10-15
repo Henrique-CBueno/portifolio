@@ -4,12 +4,18 @@
     background-size: cover;
     width: 100%;
     height: 750px;
+    /* GAMBIARRA */
+    border: 0.2px gray solid;
 
     .grid {
         width: 100%;
         display: grid;
         justify-content: center;
-        border: 2px red solid;
+    }
+
+    #user_img{
+        display: grid;
+        margin-top: 5%;
     }
 
     #subtitle{
