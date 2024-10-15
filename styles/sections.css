@@ -83,3 +83,37 @@
         }
     }
 }
+
+#tird-section{
+    height: 480px;
+    background-color: var(--gray-100);
+    
+    
+    #servicos{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 24px;
+
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+
+    }
+
+    .texto{
+        padding-top: 88px;
+    p{
+        text-align: center;
+        font: var(--subtitle);
+        color: var(--red);
+    }
+
+    h3{
+        margin-top: 8px;
+        color: var(--gray-600);
+        font: var(--title-md);
+    }
+}
+
+}
