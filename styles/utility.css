@@ -15,10 +15,11 @@
    background-color: var(--gray-300);
    border-radius: 12px; 
    padding: 12px;
+   transition: 0.5s ease;
 
 
    &:hover{
-    border: 1.5px solid var(--gray-400);
+       border: 1.5px solid var(--gray-400);
    }
 
    h1{
