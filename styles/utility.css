@@ -69,7 +69,11 @@
             height: 60px;
             background-color: var(--gray-300);
             border-radius: 8px;
+            transition: 0.5s ease;
                        
+            &:hover{
+                border: 1.5px solid var(--blue);
+            }
             
             a{
                 display: grid;
@@ -86,9 +90,10 @@
                     color: var(--gray-500);
                 }
 
+                
             }
         }
-
+        
         }
     }
 
