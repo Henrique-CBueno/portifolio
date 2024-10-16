@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.flex{
+    display: flex;
+}
+
 .box{
    width: 330px;
    height: 280px;
@@ -50,4 +54,43 @@
         padding-top: 8px;
     }
 }
+
+#social{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+
+    .links{
+        gap: 16px;
+
+        .link-box {
+            width: 400px;
+            height: 60px;
+            background-color: var(--gray-300);
+            border-radius: 8px;
+                       
+            
+            a{
+                display: grid;
+                grid-auto-flow: column;
+                align-items: center;
+                justify-content: space-between;
+                text-decoration: none;
+
+
+                p{
+                    width: 288px;
+                    margin: 15px;
+                    font: var(--text-md);
+                    color: var(--gray-500);
+                }
+
+            }
+        }
+
+        }
+    }
+
+
+
 
